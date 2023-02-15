@@ -202,13 +202,13 @@
   content: "\f006";
 }
 .fa-user:before {
-  content: "\f007";
+  content: "";
 }
 .fa-film:before {
-  content: "\f008";
+  content: "";
 }
 .fa-th-large:before {
-  content: "\f009";
+  content: "";
 }
 .fa-th:before {
   content: "\f00a";
@@ -700,7 +700,7 @@
 }
 .fa-group:before,
 .fa-users:before {
-  content: "\f0c0";
+  content: "";
 }
 .fa-chain:before,
 .fa-link:before {
@@ -1739,7 +1739,7 @@
   content: "\f21c";
 }
 .fa-street-view:before {
-  content: "\f21d";
+  content: "";
 }
 .fa-heartbeat:before {
   content: "\f21e";
