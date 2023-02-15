@@ -26,7 +26,7 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
     background-color: #fff;
-    color: #000;
+    color: #333;
     z-index: 0;
 }
 h1,h2,h3,h4{
@@ -49,13 +49,13 @@ li{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color: #333;
     z-index: 1;
 }
 .header img{
     position: absolute;
     right: 5%;
-    bottom: 0;
+    /* bottom: 0; */
     width: 60rem;
     z-index: -1;
 }
@@ -277,22 +277,23 @@ a.btn{
     height: 0.4rem;
 }
 .skill-box .playing{
-    width: 95%;
+    width: 47%
+;
 }
 .skill-box .shooting{
-    width: 90%;
+    width: 30%;
 }
 
 .skill-box .passing{
-    width: 80%;
+    width: 60%;
 }
 
 .skill-box .drible{
-    width: 95%;
+    width: 15%;
 }
 
 .skill-box .golling{
-    width: 70%;
+    width: 80%;
 }
 .skill-box span{
     position: absolute;
