@@ -1,0 +1,5 @@
+_iub.csRC = { consApiKey: 'm9Csw3Utcr3UT7FYdxL9AiT20aRxGfk7' }
+_iub.csEnabled = true;
+_iub.csPurposes = [4,3,1,5];
+_iub.cpUpd = 1685634392;
+_iub.csT = 0.15;

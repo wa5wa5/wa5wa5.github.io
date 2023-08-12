@@ -3091,545 +3091,171 @@ button.swiper-pagination-bullet {
   }
 }
 
-/* Customize the label (the container) */
-
-.container {
-  display: block;
+.bg-register {
   position: relative;
-  padding-left: 35px;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1.8;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  background-position: center;
+  width: 100%;
+  height: 110px;
+}
+
+.bg-register .img-bg {
+  width: 100%;
+}
+
+.bg-register .claim {
+  width: 100%;
+}
+
+@media (min-width: 481px) {
+  .bg-register .claim {
+    position: absolute;
+  }
+}
+
+.bg-register .claim header {
+  text-align: center;
+  color: #60cdfd;
+  font-weight: bold;
+}
+
+.bg-register .claim header span {
+  letter-spacing: 3px;
+}
+
+.bg-register .claim header img {
+  width: 82px;
+}
+
+.bg-register .claim p {
+  font-weight: bold;
+  font-size: 12px;
   margin-bottom: 0px;
 }
 
-/* Hide the browser's default radio button */
-
-.container .sc_radio {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.sc_radio[disabled] ~ .checkmark_rd {
-  opacity: 0.2;
-}
-
-/* Create a custom radio button */
-
-.checkmark_rd {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 24px;
-  width: 24px;
-  background-color: #183D4D;
-  border-radius: 50%;
-  border: solid 1px white;
-  border-radius: 50px;
-}
-
-/* On mouse-over, add a grey background color */
-
-.container:hover .sc_radio ~ .checkmark_rd {
-  background-color: #24424f;
-}
-
-/* When the radio button is checked, add a blue background */
-
-.container .sc_radio:checked ~ .checkmark_rd {
-  background-color: #183D4D;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-
-.checkmark_rd:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-
-.container .sc_radio:checked ~ .checkmark_rd:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-
-.container .checkmark_rd:after {
-  top: 4px;
-  left: 4px;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: white;
-}
-
-/* FOR CHECKBOX */
-
-/* Hide the browser's default checkbox */
-
-.container .sc_checkbox {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-
-.checkmark_cb {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 24px;
-  width: 24px;
-  background-color: #183D4D;
-  border: solid 1px white;
-  border-radius: 6px;
-}
-
-/* On mouse-over, add a grey background color */
-
-.container:hover .sc_checkbox ~ .checkmark_cb {
-  background-color: #24424f;
-}
-
-/* When the checkbox is checked, add a blue background */
-
-.container .sc_checkbox:checked ~ .checkmark_cb {
-  background-color: #183D4D;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-
-.checkmark_cb:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-
-.container .sc_checkbox:checked ~ .checkmark_cb:after {
-  display: block;
-}
-
-.sc_checkbox[disabled] ~ .checkmark_cb {
-  opacity: 0.2;
-}
-
-/* Style the checkmark/indicator */
-
-.container .checkmark_cb:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
-
-input[type=checkbox] {
-  vertical-align: middle;
-  position: relative;
-  bottom: 1px;
-}
-
-.free-trial {
-  background: #FF7B43;
+.bg-register .claim footer {
   text-align: center;
-  font-family: "Montserrat";
-  height: 80px;
-  font-size: 21px;
-  font-weight: 700;
-  letter-spacing: 0em;
-  padding: 20px;
-  position: relative;
+  color: #60cdfd;
+  font-weight: bold;
 }
 
-.free-trial a {
-  text-decoration: none;
+.register {
+  margin-top: 80px;
+  color: #c2c2c2;
 }
 
-.free-trial #close-ft-banner {
-  position: absolute;
-  top: 20px;
-  right: 0px;
-  margin-right: 70px;
-  cursor: pointer;
+.register .or-separator {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial #close-ft-banner {
-    top: 16px;
-    right: 0px;
-    margin-right: 35px;
+@media (min-width: 320px) and (max-width: 480px) {
+  .register .or-separator {
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial {
-    font-size: 13px;
-    height: auto;
-    padding: 50px 40px 20px 40px;
-    margin-bottom: 10px;
+.register span.buttonText {
+  padding-left: 26px !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .register span.buttonText {
+    padding-left: 18px !important;
   }
 }
 
-.free-trial .btn-ft {
-  width: 150px;
-  height: 40px;
-  margin-right: 20px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial .btn-ft {
-    margin-right: 0px;
-  }
-}
-
-.free-trial .btn-style {
-  border-radius: 40px;
-  border: solid 2px white;
-}
-
-.free-trial .btn-discover {
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-align: center;
-  cursor: pointer;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial .btn-discover {
-    margin-bottom: 20px;
-  }
-}
-
-.free-trial .btn-start {
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: black;
-  background: white;
-  cursor: pointer;
-}
-
-.free-trial .text2 {
-  font-family: Montserrat;
-  font-size: 21px;
-  font-weight: 400;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-right: 60px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial .text2 {
-    margin-right: 0px;
-    margin-bottom: 20px;
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-}
-
-.free-trial .text1 {
-  margin-right: 10px;
-  text-transform: uppercase;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial .text1 {
-    margin-right: 0px;
-    margin-bottom: 5px;
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-  }
-}
-
-.free-trial .text-btn {
-  padding: 9px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .free-trial .d-flex {
-    flex-direction: column;
-  }
-
-  .free-trial .btn-ft {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
-.home-banner {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .home-banner {
-    position: relative;
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-.popup-overlay-ft {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9998;
-}
-
-.popup-overlay-ft #video-promo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .comparison-ft {
-    margin-top: 80px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .live-ft {
+@media (min-width: 320px) and (max-width: 480px) {
+  .register #customBtn {
     margin-top: 20px;
   }
 }
 
-.our-mentions {
-  background: #EDEDED;
-}
-
-.our-mentions .title {
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 17px;
-  letter-spacing: 0.05em;
-  color: #181F2A;
-  padding-top: 41px;
-  margin-bottom: 53px;
-}
-
-.our-mentions .slider-container {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 58px;
-  padding-left: 34px;
-  padding-right: 34px;
-}
-
-.our-mentions .slider-mentions {
-  display: flex;
-  transform: translateX(0);
-  transition: transform 0.5s ease-in-out;
-}
-
-.our-mentions .slider-item {
-  flex-shrink: 0;
-  width: calc(100% / 9);
-  text-align: center;
-  cursor: pointer;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .our-mentions .slider-item {
-    width: calc(100% / 2);
+@media (min-width: 320px) and (max-width: 480px) {
+  .register {
+    margin-top: 0px;
   }
 }
 
-.signup-form {
-  margin-top: 138px;
-  padding-left: 29%;
-  padding-right: 29%;
-  gap: 30px;
+.register .login-card {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.register .card-header {
+  color: #1087bc;
+}
+
+.register .card label {
+  color: white;
+}
+
+.register .header {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .signup-form {
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-top: 50px;
+  .register .header {
+    font-size: 18px;
   }
 }
 
-.signup-form #title {
-  text-align: center;
-  margin-bottom: 5px;
-  color: #FFF;
-  text-align: center;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1.6px;
+.register .img_claim {
+  margin-top: 30px;
 }
 
-.signup-form #subtitle {
-  text-align: center;
-  margin-bottom: 50px;
-  color: #FFF;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.36px;
+.register .img_claim img {
+  width: 92%;
 }
 
-.signup-form .feedback-error {
-  width: 100%;
-  margin-top: 0.25rem;
-  font-size: 80%;
-  color: #FE626C;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.signup-form .or-separator {
-  text-align: center;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
-
-.signup-form .or-separator .line {
-  width: 56px;
-  height: 2px;
-  background: #183D4D;
-}
-
-.signup-form #gSignInWrapper {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.signup-form .input-signup-form {
-  border-radius: 15px;
-  background: var(--app-colours-main-grey, #EDEDED);
-  display: flex;
-  padding: 14px 25px;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 5px;
-}
-
-.signup-form .eye-pwd {
-  width: 24.072px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-.signup-form .signup-label {
-  color: var(--primary-grey-6, #FFF);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  margin-bottom: 0px !important;
-}
-
-.signup-form .signup-btn {
-  color: white;
-  color: var(--primary-grey-6, #FFF);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  display: flex;
-  height: 55px;
-  padding: 10px 60px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 30px;
-  background: var(--horizontal-gradient-secondary-blue-to-main-blue, linear-gradient(90deg, #1D83BF 0%, #2DB8DA 100%));
-  box-shadow: 0px 2.7672564983px 2.2138051987px 0px rgba(0, 0, 0, 0.02), 0px 6.6501021385px 5.3200817108px 0px rgba(0, 0, 0, 0.03), 0px 12.5215520859px 10.017241478px 0px rgba(0, 0, 0, 0.04);
-}
-
-.signup-form .t-and-n {
-  color: #FFF;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.14px;
-  margin-bottom: 50px;
-  margin-top: 20px;
-}
-
-.signup-form .t-and-n #tn-text {
-  color: #FFF;
-  margin-left: 15px;
-}
-
-.signup-form .t-and-n #remember {
-  margin-left: 25px;
-}
-
-.signup-form .t-and-n #forgot {
-  margin-top: 1px;
-}
-
-.user-question {
-  color: var(--app-colours-main-grey, #EDEDED);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.14px;
-  margin-top: 40px;
-  margin-right: 52px;
-  text-align: right;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .user-question {
-    margin-top: 100px;
-    margin-right: 0px;
+@media (min-width: 320px) and (max-width: 480px) {
+  .register .img_claim {
+    margin-top: 0px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .register .img_claim img {
+    width: 92%;
   }
 }
 
-.user-question #user-login {
-  color: var(--app-colours-text, #FFF);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.14px;
+.register .card {
+  border-radius: 0rem;
+}
+
+.register #registration-form .form-check-input {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: -3px;
+}
+
+.register #registration-form .form-check-label {
+  margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .register #registration-form .checkbox-container .form-group {
+    margin-top: 30px;
+  }
+
+  .register #registration-form .checkbox-container .form-group:last-child {
+    margin-bottom: 40px !important;
+  }
+}
+
+.modal {
+  color: #333333;
+}
+
+@media (max-width: 460px) {
+  #registration-form .form-group {
+    margin-bottom: 0px !important;
+  }
 }
 
 .new_radar_modal .modal-content,
@@ -6153,12 +5779,6 @@ input[type=checkbox] {
 
 #player_analytics .container {
   padding-top: 50px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  #player_analytics .container {
-    padding-top: 80px;
-  }
 }
 
 #player_analytics #social_media {
@@ -27098,6 +26718,15 @@ readers do not read off random characters that represent icons */
   display: none;
 }
 
+.g_id_signin {
+  background: white;
+  color: #444;
+  width: 100%;
+  border-radius: 5px;
+  border: thin solid #888;
+  white-space: nowrap;
+}
+
 @media (min-width: 320px) and (max-width: 476px) {
   .g_id_signin {
     padding-left: 0px;
@@ -27326,232 +26955,6 @@ readers do not read off random characters that represent icons */
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 10px;
-}
-
-.popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9998;
-}
-
-.popup-centered {
-  margin-left: -440px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered {
-    margin-left: -300px;
-  }
-}
-
-.popup-centered .login-popup {
-  z-index: 10000;
-  opacity: 1;
-  position: absolute;
-  margin-top: 20px;
-  width: 440px;
-  border: 3px solid #1087bc;
-  border-radius: 40px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup {
-    width: 300px;
-    margin-top: 80px;
-  }
-}
-
-.popup-centered .login-popup .login-card {
-  border-radius: 40px;
-}
-
-.popup-centered .login-popup .login-card .card {
-  border-radius: 37px;
-}
-
-.popup-centered .login-popup .login-card .card .card-body {
-  border-radius: 40px;
-  padding: 40px !important;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body {
-    padding: 20px !important;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form {
-  padding: 0px;
-  margin: 0px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form #title {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form #subtitle {
-    margin-bottom: 20px;
-    font-size: 11px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .feedback-error {
-  width: 100%;
-  margin-top: 0.25rem;
-  font-size: 80%;
-  color: #FE626C;
-  font-style: normal;
-  font-weight: 400;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form #remember {
-    margin-left: 15px;
-    padding-top: 3px;
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form #forgot {
-    padding-top: 3px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .t-and-n {
-  margin-bottom: 30px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form .t-and-n {
-    margin-bottom: 0px;
-    margin-top: 10px;
-    font-size: 10px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .or-separator {
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form .or-separator {
-    margin-top: 5px;
-    margin-bottom: 14px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .or-separator .line {
-  width: 28%;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form .or-separator .line {
-    width: 25% !important;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form .or-separator .or-text {
-    font-size: 11px;
-    margin-top: 5px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form #gSignInWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form #gSignInWrapper {
-    margin-bottom: 0px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .account-missing {
-  color: var(--app-colours-main-grey, #EDEDED);
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.14px;
-  margin-bottom: 5px;
-  margin-top: 0px;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .login-popup .login-card .card .card-body .signup-form .account-missing {
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-}
-
-.popup-centered .login-popup .login-card .card .card-body .signup-form .signup-now {
-  display: flex;
-  height: 55px;
-  padding: 10px 60px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 30px;
-  color: white;
-  border: 1px solid var(--app-colours-text, #FFF);
-  box-shadow: 0px 2.7672564983px 2.2138051987px 0px rgba(0, 0, 0, 0.02), 0px 6.6501021385px 5.3200817108px 0px rgba(0, 0, 0, 0.03), 0px 12.5215520859px 10.017241478px 0px rgba(0, 0, 0, 0.04);
-}
-
-.popup-centered .exit-btn {
-  z-index: 10000;
-  opacity: 1;
-  position: absolute;
-  margin-left: 396px;
-  margin-top: 48px;
-  display: none;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-@media (min-width: 320px) and (max-width: 476px) {
-  .popup-centered .exit-btn {
-    margin-left: 263px;
-    margin-top: 100px;
-  }
-}
-
-.fadeIn {
-  animation: fadeIn 1s;
-}
-
-.fadeOut {
-  animation: fadeOut 0.5s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
 }
 
 body {
